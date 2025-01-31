@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: "Roboto","Noto", sans-serif;
+    box-sizing: border-box;
+}
+
+.MainBar{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.HamburgerMenu{
+    padding-left: 20px;
+}
+
+.HamburgerMenuOutwear{
+    display: none;
+}
+.HamburgerMenu2{
+    display: none;
+}
+
+.ShopCenter{
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.ShoppingCart{
+    
+    padding-right: 20px;
+}
+
+.MainPagelist{
+    display: none;
+}
+
+.ProductPageAddToCart{
+    display: none;
+}
+.image{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;  
+    object-position: center;
+}
+
+.container{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 24px 0px;
+    padding-bottom: 15px;
+  
+}
+
+.ShopNow{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 40px;   
+}
+
+.RContainer{
+    display: flex;
+}
+
+.Row{
+    padding: 8px 32px;  
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MadeBy{
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.demo-only{
+    width: 120px;
+    border: 2px solid rgb(28, 21, 21);
+    text-align: center;
+    font-size: 13px;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    background-color: rgb(37, 34, 34);
+    padding: 8px 15px;
+
+
+} 
+
+.LadiesOutwearPageImageDiv{
+    height: 320px;
+    width: 100%;
+    display: none;
+}
+.LadiesOutwearPageImage{
+    object-fit: cover;
+}
+
+.page-name{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.page-items{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+.product-image{
+    width: 80%;
+}
+
+.contents{
+    margin-top: 15px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-block{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0%;
+}
+
+.PImageContainer{
+    width: 100%;
+    max-width: 100%;
+    /* height: 100vh; */
+    
+}
+
+.PImage{
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+}
+
+.PImageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.product-name{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0% 10%;
+    margin-bottom: 0%;
+    color: black;
+    line-height: 120%;
+}
+.product-price{
+    font-size: 13px;
+    padding: 2% 0%;
+    color: gray;
+}
+
+.last-demo{
+    padding-top: 4%;
+}
+
+.MainContainer{
+    margin: 0%;
+    padding: 0% 8%;
+    display: flex;
+    flex-direction: column;
+}
+.ProductCart{
+    padding-right: 0%;
+}
+.BackButton{
+    padding-left: 0%;
+}
+
+.PImage{
+    padding: 3% 2%;
+}
+
+.PName{
+    margin-bottom: 2%;
+}
+
+.PPrice{
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 9%;
+}
+
+
+.PSelector, .PQuantitySelector{
+    border: none;
+    width: 78%;
+    background-color: white;
+    padding: 5% 0%;
+    font-size: 15px;
+    font-weight: 200;
+
+}
+.PSize{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PSelectorName, .PQuantity{
+    color: gray;
+    font-size: 13px;
+}
+
+.PSelection{
+    margin-bottom: 15px;
+}
+.PDetails{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.PDetailsContent{
+    color: gray;
+    font-size: 13px;
+    line-height: 130%;
+    text-align: justify;
+    margin: 0%;
+}
+.PFeature{
+    font-size: 13px;
+    color: gray;
+}
+.PlistContents{
+    list-style:disc;
+    color: gray;
+    font-size: 13px;
+    margin-left: 15%;
+    line-height: 130%;
+    text-align: justify;
+    margin-bottom: 75px ;
+    padding-bottom: 2%;
+}
+.AddToCart{
+    text-align: center;
+    text-decoration: none;
+  
+    
+}
+.AddToCartDiv{
+    height: 50px;
+    border: 2px solid rgb(17, 17, 88);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 17, 88);
+    position: fixed;
+    bottom: 0;  
+}
+
+.CCheckout{
+    text-align: center;
+    text-decoration: none;
+}
+.CCheckoutDiv{
+    width: 100%;
+    height: 65px;
+    border: 2px solid #172C50;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #172C50;
+    position: fixed;
+    bottom: 0; 
+}
+
+.CartItems{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+    margin-top: 40px;
+}
+
+.CartItem1{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vh;
+
+}
+
+.CartItemImage{
+    height: 75px;
+    object-fit: cover;
+}
+
+.DetailsOfCart{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.NameOnCheckOut{
+    text-decoration: none;
+    color: #202020;
+    font-size: 13px;
+
+}
+
+.Div1{
+    height: 30px;
+    width: 65vw;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.details-qty{
+    display: flex;
+    align-items: end;
+    width: 20%;
+    size: 100px;
+    border: none;
+}
+.latestQTY{
+    font-size: 13px;
+    align-self: end;
+    color: gray;
+    
+}
+.Size{
+    font-size: 13px;
+    color: gray;
+}
+
+.Div2{
+    height: 37px;
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+
+.Div2A{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Empty{
+    width: 5vw;
+}
+
+.PQtySelector{
+
+    border: none;
+    align-self: center;
+    width: 25vw; 
+}
+.CHLast{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 0% 10%;
+
+}
+.Constant{
+    width: 75px ;
+}
+.Total{
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    font-size: 13px;
+}
+.Constant2{
+    width: 65vw;
+}
+
+.LastContentOfProductPage{
+    display: none;
+}
+
+.CartMainDekstop{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+    .HamburgerMenu{
+        display: none; 
+    }
+
+    .HamburgerMenu2{
+        display: contents;
+    }
+
+    .PImageMainContainer{
+        flex-direction: row;
+        
+    }
+
+    .MainPagelist{
+        display: contents;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .heading1{
+        text-decoration: none;
+        color: #202020;
+        font-weight: 500;
+        font-size: 13px;
+        padding: 4vh 1.5vw;
+
+    }
+
+    .ShopCenter{
+        padding-top: 1%;
+    }
+    .ShoppingCart{
+    
+        padding-top: 1%;
+    }
+
+    .image{
+        height: 320px;
+    }
+
+    .LadiesOutwearPageImageDiv{
+        display: contents;
+     
+        
+    }
+    .LadiesOutwearPageImage{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 30px;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .last-demo{
+        padding-top:2%;
+    }
+
+    .CheckContainer{
+        display: flex;
+        
+    }
+
+    .AddToCart{
+        display: none;
+    }
+
+    .ProductPageAddToCart{
+        display: block;
+        border: 2px solid black;
+        font-size: 14px;
+        padding: 8px 44px;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+
+    .PImageContainer{
+        max-width: 50%;
+    }
+
+    .PlistContents{
+        margin-bottom: 5%;
+        padding-bottom: 0% ;
+    }
+
+    .LastContentOfProductPage{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .LastContentOfProductPageDemoOnly{
+        border: 2px solid black;
+        background-color: black;
+        color: white;
+        padding: 8px 20px; 
+        margin-top: 5px;
+        width: 160px;
+        margin-top: 10px;
+
+    }
+
+    .LastContentOfProductPageMadeBy{
+        text-decoration: none;
+        color: gray;
+    }
+
+
+}
+
