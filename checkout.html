@@ -16,7 +16,7 @@
             <div class="ShoppingCart"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg></a></div>
         </div>
 
-        <div class="details">
+        <div class="details DetailsCheckout">
             <h2 class="page-name">Checkout</h2>
             <p class="page-items">Shop is a demo app - form data will not be sent</p>
         </div>
@@ -46,11 +46,11 @@
                     </select>
                 </div>
 
-                <h2 class="PersonDetailsHeading">Billing Address</h2>
+                <h2 class="PersonDetailsHeading  BillingAddress">Billing Address</h2>
 
                 <div class="HiddenBillDiv">
                     <input type="checkbox" id="hide-bill" class="hidden-bill">
-                    <label for="">Use different billing address</label>
+                    <label class="label-hide-address" for="">Use different billing address</label>
                     <div id="hide" class="hidden-address">
                         <input type="text" placeholder="Address" class="InputData">
                         <input type="text" placeholder="City" class="InputData">
@@ -98,27 +98,40 @@
                         <option value="">2025</option>
                         <option value="">2026</option>
                     </select>
-                    <input type="text" placeholder="CVV" class="InputData">
+                    <input type="text" placeholder="CVV" class="InputData InputCvv">
                 </div>
 
-                <h2 class="PersonDetails">Order Summary</h2>
+                <h2 class="PersonDetails OrderSummary">Order Summary</h2>
                 <div class="CheckoutTotalPrice">
-                    <h4 class="TotalPrice">Men's Tech Shell Full-Zip</h4>
-                    <span>$100.40</span>
+                    <h4 class="TotalPriceLast">Ladies Modern Stretch Full Zip</h4>
+                    <span>$41.60</span>
                 </div>
-                <div  class="CheckoutTotalPrice">
-                    <h4 class="TotalPrice">Total</h4>
-                    <span>$100.40</span>
+                <div class="CheckoutTotalPrice">
+                    <h4 class="TotalPriceLast">Ladies Modern Stretch Full Zip</h4>
+                    <span>$41.60</span>
+                </div>
+                <div  class="CheckoutTotalPrice last2">
+                    <h4 class="TotalPriceLast">Total</h4>
+                    <span>$83.20</span>
                 </div>
 
-                <a href="#" class="PlaceOrderlLast">PLACE ORDER</a>
+            <a class="AddToCart" href="">
+                <div class="AddToCartDiv">ADD TO CART</div>
+            </a>
 
+            <footer class="PlaceOrderLastDiv">
+                <a href="" class="PlaceOrderLast">PLACE ORDER</a>
+            </footer>
             </div>
 
         </div>
 
 
-
     </div>
+
+    <div class="LastContentOfProductPage  demoonlylast">
+        <a class="LastContentOfProductPageMadeBy" href="#">Made by Polymer</a>
+        <div class="LastContentOfProductPageDemoOnly">DEMO ONLY</div>
+    </div> 
 </body>
 </html>
