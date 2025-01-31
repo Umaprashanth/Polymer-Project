@@ -320,6 +320,8 @@ h2{
 .CartItemImage{
     height: 75px;
     object-fit: cover;
+    margin-left: 0;
+    padding-left: 0%;
 }
 
 .DetailsOfCart{
@@ -381,10 +383,11 @@ h2{
 }
 
 .PQtySelector{
-
+    background-color: white;
     border: none;
     align-self: center;
     width: 25vw; 
+    text-align: center;
 }
 .CHLast{
     width: 100%;
@@ -411,9 +414,57 @@ h2{
     display: none;
 }
 
-.CartMainDekstop{
+.CartForLaptop{
     display: none;
 }
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+.PersonDetailsHeading{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin-bottom: 3vh;
+
+}
+
+.InputData{
+    width: 100% ;
+    border-bottom: 1px solid lightgray;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+    padding: 10px 0px;
+}
+
+.StateZip{
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+
+.LableCountry{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#hide{
+    display:none
+}
+
+#hide-bill:checked  ~ #hide{
+    display: block;
+}
+
+
 
 
 
@@ -424,6 +475,7 @@ h2{
     }
 
     .HamburgerMenu2{
+        padding-left: 20px;
         display: contents;
     }
 
@@ -525,14 +577,123 @@ h2{
         margin-top: 5px;
         width: 160px;
         margin-top: 10px;
+        font-size: 13px;
 
     }
 
     .LastContentOfProductPageMadeBy{
         text-decoration: none;
         color: gray;
+        font-size: 13px;
+    }
+
+    .CartForMobile{
+        display: none;
+    }
+
+    .CartForLaptop{
+        display: block;
+    }
+
+    .CartDetails{
+        text-align: center;
+        padding-right: 25px;
+        padding-top: 25px;
+    }
+
+    .CartProduct1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+
+    }
+
+    .CartProductDetails{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .ProductNameInCartLink{
+        text-decoration: none;
+        color: #202020;
+        padding-left: 15px;
+        padding-right: 45x;
+        font-size: 13px;
+    }
+
+    .CartItemsLaptop{
+        width: 100%;
+        margin-top: 55px;
+        
+    }
+
+    .details-qty-laptop{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .SizeLaptop{
+
+        margin-left: 10px;
+        
+    }
+    .LastInnerContainer{
+        width: 100vw;
+    }
+
+    .PQtySelectorLaptop{
+        width: 35vw;
     }
 
 
-}
+    .CartTotalLaptop{
+        display: flex;
+        flex-direction: row;
+        justify-content:end;
+        align-items: center;
+        margin-right: 10%;
+     
+    }
 
+    .CartTotalLaptop1{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 12vw;
+        padding-right: 5%;
+        
+
+    }
+
+    .CheckOutLaptopClick1{
+        text-decoration: none;
+        color:black;
+        border: 2px solid black;
+        padding: 8px 35px;
+        font-size: 13px;
+
+    }
+
+    
+    .subtotal{
+        font-size: 13px;
+        font-weight: bold;
+        padding-right: 50px;
+    }
+
+    .TotalLaptop{
+        font-size: 13px;
+        font-weight: bold;  
+        padding-right: 50px;
+    }
+     .line3{
+        display: flex;
+        justify-content: end;
+      padding-left: 5%;
+        
+    } 
+} 
