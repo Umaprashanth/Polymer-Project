@@ -830,5 +830,9 @@ h2{
         background-color: white;
     }
   
+    .AddToCartLink{
+        text-decoration: none;
+        color: black;
+    }
 
 } 
